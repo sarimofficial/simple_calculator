@@ -1,8 +1,9 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 
 //Asking Question from users through Inquirer
 
-let answers = await inquirer.prompt([
+const answers = await inquirer.prompt([
 {message: "Enter First Number", type: "number", name: "FirstNumber"},
 {message: "Enter Second Number", type:"number", name: "secondNumber"},
 {
